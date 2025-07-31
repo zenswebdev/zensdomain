@@ -1,0 +1,23 @@
+h1{
+    font-size: 3.5em;
+    color: #bce4dd;
+    text-align: center;
+    margin-top: 20px;
+}  
+li{
+    font-size: 1.2em;
+    color: #f9f9ff;
+    margin-top: 10px;
+}
+a{
+    font-size: 1em; 
+    color: #5ad0ff; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+p{
+    font-size: 1.5em;
+    color: #bce4dd;
+    text-align: center;
+    margin-top: 10px;
+}

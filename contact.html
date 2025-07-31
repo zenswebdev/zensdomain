@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>contact</title> 
+    <link rel="stylesheet" href="css/css/contact.css">
+</head>
+<body background="images/sky2.gif">
+    <nav>
+        <ul>
+             <li><a href="home.html">Home</a></li>
+            <li><a href="works.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <h1>How To Contact Zen</h1>
+    <p>If you have any questions or just want to say hello, feel free to reach out!</p>
+    <form action="submit_contact.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>

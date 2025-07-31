@@ -1,0 +1,36 @@
+h1{   
+    font-size: 3.5em; 
+    color: #fff7d2; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+li{
+    font-size: 1.2em;
+    color: #0c9eff;
+    margin-top: 10px;
+}
+a{
+    font-size: 1em; 
+    color: #fff7d2; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+p{
+    font-size: 1.5em;
+    color: #bce4dd;
+    text-align: center;
+    margin-top: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  gap: 10px; /* space between items */
+  padding: 10px;
+}
+
+.box {
+  color: white;
+  padding: auto;
+  text-align: center;
+  font-size: 1.5em;
+}

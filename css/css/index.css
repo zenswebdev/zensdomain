@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.danger-sign {
+    color: #ffb700;
+    background: #222;
+    border: 3px solid #ffb700;
+    padding: 0 10px 60px 10px;
+    margin: 40px auto;
+    max-width: 500px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'New Tegomin', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 0 0 20px #ff0000;
+    border-radius: 5%;
+    animation: blink 3s steps(7, start) infinite;
+    
+}       
+.Fire{
+    background: url('../../images/fireburning1.gif') center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateY(-100px); /* Move fire up by 60px, adjust as needed */ 
+    margin-right: 25px; /* Space between fire and button */
+}
+.Skull {
+    background: url('../../images/skull.png') center center no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Hand{
+    background: url('../../images/hand.png') center center no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 140px;    
+    display: inline-block;
+    padding-bottom: 200px;
+    vertical-align: middle;    
+    margin-left: 20px; /* Space between button and hand */
+}
+.center-skull {
+    position: relative;
+    width: 200px;   /* Adjust as needed for spacing */
+    height: 200px;  /* Adjust as needed for spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.center-skull .Skull {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.center-skull .Fire {
+    position: absolute;
+    top: 10%;         /* Move up/down vertically */
+    left: 50%;        /* Move left/right horizontally */
+    width: 100px;
+    height: 120px;
+    transform: translate(-10%, -100%); /* Fine-tune centering and vertical offset */
+    z-index: 1;
+}
+
+.center-skull .Hand {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    height: 80px;
+    transform: translate(-50%, 40%);
+    z-index: 1;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
