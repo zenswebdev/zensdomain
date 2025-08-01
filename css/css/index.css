@@ -55,8 +55,8 @@ body {
 }
 .center-skull {
     position: relative;
-    width: 200px;   /* Adjust as needed for spacing */
-    height: 200px;  /* Adjust as needed for spacing */
+    width: 200px;   
+    height: 200px;  
     display: flex;
     justify-content: center;
     align-items: center;

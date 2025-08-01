@@ -15,11 +15,30 @@ header.main {
     padding: 20px;
 }
 
-nav a {
-    font-size: 1em;
-    color: #fff7d2;
-    margin: 0 10px;
-    text-decoration: none;
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.navbar a {
+  color: #fff7d2;
+  text-decoration: none;
+  font-size: 1em;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.5s ease;
+}
+
+.navbar a:hover {
+  color:#ffd000; /* change color on hover */
+}
+
+.navbar a.active {
+  border-bottom-color: #ffd000; /* underline active link */
 }
 
 /* Headings and Paragraphs */
