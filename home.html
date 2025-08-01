@@ -1,22 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>home</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/css/home.css">
+    <link rel="stylesheet" href="css/css/global/cursor.css">
 </head>
-<body background="images/deepsea1.gif">
-        <nav class="nav">
-        <ul>
-            <li><a href="./works">Work</a></li>
-            <li><a href="./about">About</a></li>
-            <li><a href="./contact">Contact</a></li>
-        </ul>
-    </nav>
+<body>
+    <header class="main">
+        <nav>
+            <a href="./works">Work</a>
+            <a href="./about">About</a>
+            <a href="./contact">Contact</a>
+        </nav>
+    </header>
+
     <h1>Welcome to Zen's Domain</h1>
+    <p>Works are in progress, your patience is loved</p>
+
     <div class="grid">
-    <div class="box"><img src="images/construction2.gif" alt="Under Construction" style="display: block; margin: 0 auto; width: auto; height: auto;"></div>
-    <div class="box"><img src="images/construction1.gif" alt="Under Construction" style="display: block; margin: 0 auto; width: 300px; height: auto;"></div>
-    <div class="box"><img src="images/construction3.gif" alt="Under Construction" style="display: block; margin: 0 auto; width: auto; height: 300px;"></div>
+        <div class="box">
+            <img src="images/construction2.gif" alt="Under Construction" class="img-auto">
+        </div>
+        <div class="box">
+            <img src="images/construction1.gif" alt="Under Construction" class="img-fixed-width">
+        </div>
+        <div class="box">
+            <img src="images/construction3.gif" alt="Under Construction" class="img-fixed-height">
+        </div>
+    </div>
 </body>
 </html>

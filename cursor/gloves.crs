@@ -1,0 +1,12 @@
+﻿[Arrow]
+Path=GLOVES CURSOR1.cur
+
+[Hand]
+Path=GLOVES CURSOR2.cur
+
+[Wait]
+Path=GLOVES CURSOR3.cur
+
+[AppStarting]
+Path=GLOVES CURSOR 4.cur
+
