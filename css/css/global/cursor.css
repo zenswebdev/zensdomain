@@ -1,0 +1,15 @@
+body{
+     cursor: url(/zensdomain/cursor/GLOVES\ CURSOR1.cur), auto;
+}
+a:hover{
+  cursor: url(/zensdomain/cursor/GLOVES\ CURSOR2.cur), auto;
+}
+input:hover {
+  cursor: url(/zensdomain/cursor/GLOVES\ CURSOR3.cur), text;
+}
+a{
+  cursor: url(/zensdomain/cursor/GLOVES\ CURSOR2.cur), auto;
+}
+button:hover{
+  cursor: url(/zensdomain/cursor/GLOVES\ CURSOR2.cur), pointer;
+}
