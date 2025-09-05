@@ -1,4 +1,4 @@
-﻿=== GLOVES Cursor Set ===
+=== GLOVES Cursor Set ===
 
 By: juanello
 
